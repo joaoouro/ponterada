@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- SQL XML created by WWW SQL Designer, https://github.com/ondras/wwwsqldesigner/ -->
-<!-- Active URL: https://sql.toad.cz/ -->
+<!-- Active URL: https://sql.toad.cz/?keyword=online_library -->
 <sql>
 <datatypes db="mysql">
 	<group label="Numeric" color="rgb(238,238,170)">
@@ -75,7 +75,7 @@
 <default>NULL</default><relation table="comentario" row="foto de perfil (id)" />
 </row>
 <row name="Nome fantasia" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
+<datatype>INTEGER</datatype>
 <default>NULL</default><relation table="comentario" row="Nome fantasia" />
 <relation table="Post" row="Nome fantasia" />
 </row>
@@ -105,7 +105,7 @@
 <default>NULL</default><relation table="comentario" row="id" />
 </row>
 <row name="Nome fantasia" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
+<datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <key type="PRIMARY" name="">
 <part>id</part>
@@ -126,7 +126,7 @@
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="Nome fantasia" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
+<datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <key type="PRIMARY" name="">
 <part>id</part>
@@ -156,15 +156,15 @@
 <part>Users (id)</part>
 </key>
 </table>
-<table x="634" y="104" name="User">
+<table x="682" y="118" name="User">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="senha (hash)" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
+<datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="Email" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
+<datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="CPF" null="1" autoincrement="0">
 <datatype>INTEGER</datatype>
@@ -182,7 +182,7 @@
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="descrição" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
+<datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="posts" null="1" autoincrement="0">
 <datatype>INTEGER</datatype>
